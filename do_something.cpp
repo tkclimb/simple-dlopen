@@ -1,3 +1,3 @@
 #include <cstdio>
 
-void print() { printf("print...\n"); }
+extern "C" void print() { printf("print...\n"); }

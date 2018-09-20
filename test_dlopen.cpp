@@ -5,7 +5,7 @@
 int main(int argc, char *argv[]) {
 
   void *plugin;
-  plugin = dlopen("./simple/libdo_something.so", RTLD_LAZY);
+  plugin = dlopen("./libdo_something.so", RTLD_LAZY);
 
   const char *err_msg = dlerror();
   if (err_msg) {
